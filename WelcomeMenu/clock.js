@@ -18,6 +18,7 @@ function updateClock() {
 
     /*  Bir sonraki çizim döngüsünde güncelleme isteği gönderin. 
       ! Her saniye ekranı güncellemek gereksiz iş yüküdür sayfa açık kaldıkça günceller bu yüzden alternatif çözüm uygulanmadı */
+      
     requestAnimationFrame(updateClock);
 
     /* alternatif çözüm:  setTimeOut(updateClock,1000)  */
